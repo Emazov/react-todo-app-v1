@@ -1,0 +1,18 @@
+.todo_wrapper {
+	width: 350px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 150px auto 0;
+	background-color: #fff;
+	border-radius: 10px;
+
+	.todo__title {
+		margin: 20px 0;
+		text-align: center;
+	}
+
+	.todo_list {
+		padding: 30px 20px;
+	}
+}

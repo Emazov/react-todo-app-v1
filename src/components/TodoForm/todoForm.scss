@@ -1,0 +1,28 @@
+.todo_form {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+
+	.todo__input {
+		width: 250px;
+		height: 36px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		letter-spacing: 1px;
+		color: #000;
+		border: none;
+		outline: none;
+	}
+
+	.todo__btn {
+		padding: 10px 15px;
+		color: #fff;
+		background-color: #43affc;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+}

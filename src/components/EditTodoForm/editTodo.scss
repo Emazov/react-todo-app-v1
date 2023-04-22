@@ -1,0 +1,36 @@
+.edit_todo_form {
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	p {
+		margin-bottom: 5px;
+		font-size: 14px;
+		font-weight: 500;
+		font-family: 'Robot', sans-serif;
+	}
+
+	.edit_todo__input {
+		width: 250px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		letter-spacing: 1px;
+		color: #000;
+		border: none;
+		outline: none;
+		resize: none;
+
+		&::-webkit-scrollbar {
+			width: 1px;
+		}
+	}
+
+	.edit_todo__btn {
+		padding: 5px 10px;
+		color: #fff;
+		background-color: #43affc;
+		border: none;
+		cursor: pointer;
+	}
+}
